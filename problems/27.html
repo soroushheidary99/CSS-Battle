@@ -1,0 +1,48 @@
+
+<div class='outer'><div class='innerinner'><div class='inner'></div></div></div>
+<div class='innest'></div>
+
+<style>
+  body{
+    background-color: #E38F66;
+    display: grid;
+    place-items: center;
+  }
+  .outer {
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    background: #AA445F;
+    position: relative;
+    
+  }
+  .inner{
+    position: absolute;
+    top:-10;
+    left:-10;
+    width: 160;
+    height: 160;
+    border-radius: 50%;
+    background: #AA445F;
+    clip-path: polygon(100% 50%, 100% 100%, 50% 100%, 50% 50%, 0% 50%, 0% 0%, 50% 0%, 50% 50%);
+    
+  }
+  .innest{
+    position: absolute;
+    top:110;
+    left:160;
+    width: 80;
+    height:80;
+    background-color: #AA445F;
+    border-radius: 50%;
+  }
+  .innerinner{
+    position: absolute;
+    top:30;
+    left:30;
+    width: 140;
+    height: 140;
+    border-radius: 50%;
+    background: #F7EC7D;
+  }
+</style>
